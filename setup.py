@@ -55,7 +55,8 @@ setup(
 
     install_requires=[
         'bottleneck>=1.3.2',
-        'cartopy>=0.17.0', # conda!
+        # Can't do this!
+        # 'cartopy>=0.17.0', # conda!
         'cloudpickle', # install_test
         'contextily>=1.0rc2',
         'dask>=1.2.2',
